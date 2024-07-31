@@ -1,4 +1,4 @@
-name: Deploy Project
+name: Section3 - 02 Deployment
 
 on: 
   push:
