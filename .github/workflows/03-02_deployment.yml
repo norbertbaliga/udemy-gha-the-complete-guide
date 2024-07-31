@@ -1,9 +1,11 @@
 name: Deploy Project
+
 on: 
   push:
-    branches:
-      - 03-02-finished_project
+    branches: [ "03-02-finished_project" ]
+
   workflow_dispatch:
+
 jobs:
   test:
     runs-on: ubuntu-latest
