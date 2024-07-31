@@ -1,4 +1,4 @@
-name: Deployment Exercise
+name: Section3 - 03 Deployment
 
 on: 
   push:
