@@ -8,4 +8,4 @@ This Udemy course teaches GitHub Actions from the ground up, without any prior G
 
 Course resources can be found (code snapshots & slides) on GitHub, in this repository: https://github.com/academind/github-actions-course-resources
 
-This repository is my own instance of the exercise codes. Each branch maps to the different course sections and their exercise. All workflows are defined in the main branch but each workflow is associated with one branch only.
+This repository is my own instance of the exercise codes. Each branch maps to the different course sections and their exercise. Some workflows are defined in the main branch, but most of them are in a section dedicated branch.
