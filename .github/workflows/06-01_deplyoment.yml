@@ -11,7 +11,7 @@ jobs:
     environment: udemy-gha-testing
     runs-on: ubuntu-latest
     env:
-      MONGODB_CLUSTER_ADDRESS: ${{ secrets.MONGODB_CLUSTER_ADDRESS }}
+      MONGODB_CLUSTER_ADDRESS: ${{ vars.MONGODB_CLUSTER_ADDRESS }}
       MONGODB_USERNAME: ${{ secrets.MONGODB_USERNAME }}
       MONGODB_PASSWORD: ${{ secrets.MONGODB_PASSWORD }}
       PORT: 8080
@@ -41,5 +41,5 @@ jobs:
           PORT: 3000
         run: |        
           echo "MONGODB_DB_NAME: $MONGODB_DB_NAME"
-          echo "MONGODB_USERNAME: $MONGODB_USERNAME"
+          echo "MONGODB_USERNAME: $MONGODB_USERNAME (expected to be empty)"
           echo "${{ env.PORT }}"
