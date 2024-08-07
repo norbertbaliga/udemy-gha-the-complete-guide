@@ -1,11 +1,10 @@
-# GitHub Actions - The Complete Guide (Udemy)
+# Section 7 - Controlling Workflow & Job Execution
 
-GitHub Actions is an extremely popular and fast-growing CI / CD automation service offered by GitHub.
+Simulating a deployment workflow on a React sample app with re-usable workflow and controlling execution by if and continue-on-error.
 
-This Udemy course teaches GitHub Actions from the ground up, without any prior GitHub Actions knowledge assumed or required.
+Associated Workflows:
 
-[Udemy course link](https://goto.udemy.com/course/github-actions-the-complete-guide/learn/lecture/34120940#overview)
-
-Course resources can be found (code snapshots & slides) on GitHub, in this repository: https://github.com/academind/github-actions-course-resources
-
-This repository is my own instance of the exercise codes. Each branch maps to the different course sections and their exercise. Some workflows are defined in the main branch, but most of them are in a section dedicated branch.
+    - .github/workflows/07-01_execflow_continue.yml
+    - .github/workflows/07-01_execflow_if.yml
+    - .github/workflows/07-01_reusable_deploy.yml
+    - .github/workflows/07-01_use_reusable.yml
