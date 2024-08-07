@@ -1,4 +1,4 @@
-name: Section7 - 04 Reusable WF - deploy
+name: Section7 - 03 Reusable WF - deploy
 on: 
   workflow_call:
     inputs:
