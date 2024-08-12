@@ -1,5 +1,5 @@
-# Section 6 - Using Environment Variables & Secrets
+# Section 8 - Jobs & Docker Containers
 
-Simulating a deployment workflow on a NodeJS sample app with MongoDB database leveraging enviroment level secrets and variables.
+Simulating a deployment workflow on a NodeJS sample app with a MongoDB database leveraging service container.
 
-Associated Workflow: .github/workflows/06-01_deployment.yml
+Associated Workflow: .github/workflows/08-01_deployment.yml
