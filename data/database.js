@@ -9,7 +9,7 @@ const dbName = process.env.MONGODB_DB_NAME;
 const uri = `${connectionProtocol}://${dbUser}:${dbPassword}@${clusterAddress}/?retryWrites=true&w=majority`;
 const client = new MongoClient(uri);
 
-console.log('Trying to connect to ${clusterAddress}');
+console.log(`Trying to connect to ${clusterAddress}`);
 
 try {
   await client.connect();
