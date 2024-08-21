@@ -1,0 +1,16 @@
+{
+  "name": "udemy-gha-the-complete-guide",
+  "version": "1.0.0",
+  "description": "GitHub Actions is an extremely popular and fast-growing CI / CD automation service offered by GitHub.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@actions/core": "^1.10.1",
+    "@actions/github": "^6.0.0"
+  }
+}
