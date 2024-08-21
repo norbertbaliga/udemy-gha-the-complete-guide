@@ -3,7 +3,7 @@ name: Section9 - 02 JavaScript Action
 on:
   push:
     branches:
-      - 09-02-JS-actions
+      - 09-02-JS_actions
 
 jobs:
   hello_world_job:
