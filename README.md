@@ -1,11 +1,23 @@
-# GitHub Actions - The Complete Guide (Udemy)
+# Hello world docker action
 
-GitHub Actions is an extremely popular and fast-growing CI / CD automation service offered by GitHub.
+This action prints "Hello World" or "Hello" + the name of a person to greet to the log.
 
-This Udemy course teaches GitHub Actions from the ground up, without any prior GitHub Actions knowledge assumed or required.
+## Inputs
 
-[Udemy course link](https://goto.udemy.com/course/github-actions-the-complete-guide/learn/lecture/34120940#overview)
+## `who-to-greet`
 
-Course resources can be found (code snapshots & slides) on GitHub, in this repository: https://github.com/academind/github-actions-course-resources
+**Required** The name of the person to greet. Default `"World"`.
 
-This repository is my own instance of the exercise codes. Each branch maps to the different course sections and their exercise. Some workflows are defined in the main branch, but most of them are in a section dedicated branch.
+## Outputs
+
+## `time`
+
+The time we greeted you.
+
+## Example usage
+
+```yaml
+uses: actions/hello-world-docker-action@v2
+with:
+  who-to-greet: 'Mona the Octocat'
+```
