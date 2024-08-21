@@ -1,5 +1,5 @@
-# Section 8 - Jobs & Docker Containers
+# Section 9 - Building & Using Custom Actions
 
-Simulating a deployment workflow on a NodeJS sample app with a MongoDB database leveraging service container.
+Simulating a deployment workflow on a TODO app leveraging composite action.
 
-Associated Workflow: .github/workflows/08-01_deployment.yml
+Associated Workflow: .github/workflows/09-01_deployment.yml
