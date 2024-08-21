@@ -1,4 +1,4 @@
-name: Section8 - Jobs&Containers
+name: Section9 - 01 Composite Action
 on:
   push:
     branches:
